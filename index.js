@@ -13,6 +13,7 @@ console.log(takeANumber(katzDeliLine, lineNumber))
 console.log(nowServing(katzDeliLine))
 console.log(takeANumber(katzDeliLine, lineNumber))
 console.log(nowServing(katzDeliLine))
+console.log(takeANumber(katzDeliLine, lineNumber))
 
 function nowServing (line) {
   let serving;
