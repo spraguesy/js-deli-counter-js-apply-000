@@ -4,7 +4,7 @@ var lineNumber = 1;
 function takeANumber (line,number) {
   line.push(number);
   let greeting = `Welcome. You are ${number}.`;
-  number++;
+  lineNumber++;
   return greeting
 }
 console.log(takeANumber(katzDeliLine, lineNumber))
