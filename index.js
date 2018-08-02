@@ -8,6 +8,9 @@ function takeANumber (line,number) {
   return greeting
 }
 console.log(takeANumber(katzDeliLine, lineNumber))
+console.log(takeANumber(katzDeliLine, lineNumber))
+console.log(takeANumber(katzDeliLine, lineNumber))
+
 
 function nowServing (line) {
   let serving;
