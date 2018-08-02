@@ -1,10 +1,13 @@
 var katzDeliLine = [];
+var lineNumber = 1;
 
-function takeANumber (line,name) {
-  line.push(name);
-  let greeting = `Welcome, ${name}. You are number ${line.length} in line.`;
+function takeANumber (line,number) {
+  line.push(number);
+  let greeting = `Welcome. You are ${number}.`;
+  number++;
   return greeting
 }
+console.log(takeANumber(katzDeliLine, lineNumber))
 
 function nowServing (line) {
   let serving;
